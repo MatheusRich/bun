@@ -9,8 +9,8 @@ rvm:
   - 2.4.3
   - 2.5.0
 env:
-  TASK=bundle install
-  TASK=bundle exec rake
+  TASK="bundle install"
+  TASK="bundle exec rake"
 script: BUNDLE_GEMFILE=gemfile $TASK
 notifications:
   email: false
